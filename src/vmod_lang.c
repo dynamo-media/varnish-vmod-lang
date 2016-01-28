@@ -76,13 +76,6 @@ strtolower(char *str)
 	return;
 }
 
-
-int
-init_function(struct vmod_priv *priv, const struct VCL_conf *conf)
-{
-    return (0);
-}
-
 VCL_STRING
 vmod_detect(const struct vrt_ctx *ctx, VCL_STRING header, VCL_STRING languages, VCL_STRING language)
 {
