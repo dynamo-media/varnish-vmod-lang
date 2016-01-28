@@ -1,4 +1,3 @@
 $Module lang 3 Lang VMOD
-$Init init_function
 $Function STRING detect(STRING, STRING, STRING)
 $Function STRING version()
